@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+.hero {
+    background: url('images/rupixen-Q59HmzK38eQ-unsplash.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.product-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    background: #fff;
+}
+.footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
